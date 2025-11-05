@@ -21,7 +21,7 @@ export default function Navbar() {
                             <Link href="/about" className={`nav-link px-3 ${pathname === "/about" ? "active fw-bold" : ""}`}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/contect" className={`nav-link px-3 ${pathname === "/contact" ? "active fw-bold" : ""}`}>Contact</Link>
+                            <Link href="/contact" className={`nav-link px-3 ${pathname === "/contact" ? "active fw-bold" : ""}`}>Contact</Link>
                         </li>
                     </ul>
                 </div>
